@@ -1,5 +1,5 @@
 body {
-  background-color: #282c34;
+  background-color: #050b15;
 }
 
 .App {
@@ -9,7 +9,7 @@ body {
 }
 
 .App header {
-  background-color: #181717;
+  background-color: #454754;
   height: 10vh;
   min-height: 50px;
   color: white;
@@ -30,14 +30,15 @@ body {
   flex-direction: column;
   justify-content: center;
   min-height: 100vh;
-  background-color: rgb(40, 37, 53);
+  background-color: #282c34;
 }
 
 main {
   padding: 10px;
   height: 80vh;
   margin: 10vh 0 10vh;
-  overflow-y: scroll;
+  overflow-y: auto;
+  overflow-x: hidden;
   display: flex;
   flex-direction: column;
 }
@@ -67,7 +68,7 @@ form {
 
 form button {
   width: 20%;
-  background-color: rgb(56, 56, 143);
+  background-color: #0096ff;
 }
 
 input {
@@ -82,7 +83,7 @@ input {
 }
 
 button {
-  background-color: #282c34; /* Green */
+  background-color: #00939e;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -113,10 +114,8 @@ li {
 
 p {
   max-width: 500px;
+  word-wrap: break-word;
   margin-bottom: 12px;
-  line-height: 24px;
-  padding: 10px 20px;
-  border-radius: 25px;
   position: relative;
   color: white;
   text-align: center;
@@ -135,15 +134,35 @@ p {
   color: white;
   background: #0b93f6;
   align-self: flex-end;
-}
-.received p {
-  background: #e5e5ea;
-  color: black;
+
+  line-height: 30px;
+  padding: 12px 30px;
+  font-size: 18px;
+
+  border-radius: 30px 0px 15px 25px;
 }
 
-img {
+.received p {
+  background: #a7c6fc;
+  color: black;
+
+  line-height: 30px;
+  padding: 12px 25px;
+  font-size: 15px;
+
+  border-radius: 25px;
+}
+
+.sent img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 10px 5px;
+}
+
+.received img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  margin: 2px 5px;
+  margin: 8px 5px;
 }
