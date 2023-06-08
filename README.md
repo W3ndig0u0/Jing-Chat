@@ -1,4 +1,4 @@
-A chat site made by React and Firebase.
+A chat site made with React and Firebase.
 
 ![image](https://github.com/W3ndig0u0/jingchat/assets/70271139/0f75de12-da3a-44d5-96e4-c9cb9f1cf205)
 
